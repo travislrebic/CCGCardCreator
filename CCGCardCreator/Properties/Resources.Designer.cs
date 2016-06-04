@@ -63,6 +63,56 @@ namespace CCGCardCreator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HS_Basic_Minion_Card_Blank {
+            get {
+                object obj = ResourceManager.GetObject("HS_Basic_Minion_Card_Blank", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HS_Common_Minion_Card_Blank {
+            get {
+                object obj = ResourceManager.GetObject("HS_Common_Minion_Card_Blank", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HS_Epic_Minion_Card_Blank {
+            get {
+                object obj = ResourceManager.GetObject("HS_Epic_Minion_Card_Blank", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HS_Legendary_Minion_Card_Blank {
+            get {
+                object obj = ResourceManager.GetObject("HS_Legendary_Minion_Card_Blank", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HS_Rare_Minion_Card_Blank {
+            get {
+                object obj = ResourceManager.GetObject("HS_Rare_Minion_Card_Blank", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap HSBlankCardFront {
             get {
                 object obj = ResourceManager.GetObject("HSBlankCardFront", resourceCulture);
