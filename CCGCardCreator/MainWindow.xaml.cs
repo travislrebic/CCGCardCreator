@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace CCGCardCreator
 {
-    // test change to check in.
-
-
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
