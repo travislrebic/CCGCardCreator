@@ -25,9 +25,10 @@ namespace CCGCardCreator
             InitializeComponent();
         }
 
-        private void txtToughness_Copy1_TextChanged(object sender, TextChangedEventArgs e)
+        private void ddCardType_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
+
     }
 }
