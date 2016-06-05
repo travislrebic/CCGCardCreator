@@ -22,6 +22,7 @@ namespace CCGCardCreator
     public partial class MainWindow : Window
     {
         ObservableCollection<CardFrontSelection> CardFrontSelections = new ObservableCollection<CardFrontSelection>();
+        ObservableCollection<CardStats> Cards = new ObservableCollection<CardStats>();
         public MainWindow()
         {
             InitializeComponent();
@@ -35,18 +36,25 @@ namespace CCGCardCreator
             ddCardType.ItemsSource = CardFrontSelections;
             ddCardType.DisplayMemberPath = "Content";
             ddCardType.SelectedIndex = 0;
-            
+            txtCardName.Text = "";
+            txtCardText.Text = "";
+            txtManaCost.Text = "";
+            txtPower.Text = "";
+            txtToughness.Text = "";
         }
-
+        
 
         private void ddCardType_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var ImageLocation = (ddCardType.SelectedItem as CardFrontSelection).Image;
             var Image = new BitmapImage(new Uri(ImageLocation, UriKind.Relative));
             imgCardFront.Source = Image;
+            
+        }
+        private void ddCardSelect_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
 
         }
-
 
 
     }
