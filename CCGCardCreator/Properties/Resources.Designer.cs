@@ -113,9 +113,9 @@ namespace CCGCardCreator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap HSBlankCardFront {
+        internal static System.Drawing.Bitmap HS_Weapon_Card_Blank {
             get {
-                object obj = ResourceManager.GetObject("HSBlankCardFront", resourceCulture);
+                object obj = ResourceManager.GetObject("HS_Weapon_Card_Blank", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

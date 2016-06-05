@@ -13,27 +13,30 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Canvas Grid.ColumnSpan="1" Grid.Column="0">
-            <Image x:Name="imgCardFront" Source="pack://siteoforigin:,,,/Resources/HSBlankCardFront.png" Stretch="UniformToFill"/>
+            <Image x:Name="imgCardFront" Source="pack://siteoforigin:,,,/Resources/HS_Basic_Minion_Card_Blank.png" Stretch="UniformToFill"/>
 
-            <TextBox x:Name="txtPower" HorizontalAlignment="Left" Height="54" Margin="17,318,0,0" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Width="36" Background="#00000000" ClipToBounds="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="48" Foreground="#FFFBFBFB" FontWeight="Bold"/>
-            <TextBox x:Name="txtToughness" HorizontalAlignment="Left" Height="54" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Width="36" Background="#00000000" ClipToBounds="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="48" Foreground="#FFF9F9F9" FontWeight="Bold" Grid.Column="1" Canvas.Left="231" Canvas.Top="319"/>
-            <TextBox x:Name="txtManaCost" HorizontalAlignment="Left" Height="54" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Width="36" Background="#00000000" ClipToBounds="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="48" Foreground="#FFF9F9F9" FontWeight="Bold" Canvas.Left="16" Canvas.Top="4"/>
-            <TextBox x:Name="txtCardText" HorizontalAlignment="Left" Height="97" Margin="56,255,0,0" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Width="170" Background="#00000000" ClipToBounds="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16" Foreground="#FFF9F9F9"/>
-            <TextBox x:Name="txtCardName" HorizontalAlignment="Left" Height="31" Margin="33,186,0,0" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Width="215" Background="#00000000" ClipToBounds="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16" Foreground="#FFF9F9F9"/>
+            <TextBox x:Name="txtPower" HorizontalAlignment="Left"     BorderThickness="0" Height="54" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Width="36" Background="#00000000" ClipToBounds="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="48" Foreground="#FFFBFBFB" FontWeight="Bold" Canvas.Left="20" Canvas.Top="314"/>
+            <TextBox x:Name="txtToughness" HorizontalAlignment="Left" BorderThickness="0" Height="54" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Width="36" Background="#00000000" ClipToBounds="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="48" Foreground="#FFF9F9F9" FontWeight="Bold" Canvas.Left="216" Canvas.Top="314"/>
+            <TextBox x:Name="txtManaCost" HorizontalAlignment="Left"  BorderThickness="0" Height="54" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Width="36" Background="#00000000" ClipToBounds="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="48" Foreground="#FFF9F9F9" FontWeight="Bold" Canvas.Left="10" Canvas.Top="20"/>
+            <TextBox x:Name="txtCardText" HorizontalAlignment="Left"  BorderThickness="0" Height="97" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Width="158" Background="#00000000" ClipToBounds="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16" Foreground="#FFF9F9F9" Canvas.Left="58" Canvas.Top="255"/>
+            <TextBox x:Name="txtCardName" HorizontalAlignment="Left"  BorderThickness="0" Height="31" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Width="215" Background="#00000000" ClipToBounds="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16" Foreground="#FFF9F9F9" Canvas.Left="34" Canvas.Top="201"/>
         </Canvas>
         <Grid Grid.Column="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="25"/>
                 <RowDefinition Height="25"/>
+                <RowDefinition Height="25"/>
+                <RowDefinition Height="25"/>
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="108"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Label x:Name="lblSelectCardType" Content="Select Card Type: " Grid.Column="0" Grid.Row="0"/>
             <ComboBox x:Name="ddCardType" Grid.Column="1" Grid.Row="0" Margin="5,2,5,2" SelectionChanged="ddCardType_SelectionChanged">
             </ComboBox>
+
         </Grid>
     </Grid>
 </Window>

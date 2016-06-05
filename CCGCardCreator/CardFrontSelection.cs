@@ -10,5 +10,12 @@ namespace CCGCardCreator
     {
         public string Content { get; set; }
         public string Image { get; set; }
+        public CardFrontSelection()
+        { }
+        public CardFrontSelection(string content, string image)
+        {
+            this.Content = content;
+            this.Image = image;
+        }
     }
 }

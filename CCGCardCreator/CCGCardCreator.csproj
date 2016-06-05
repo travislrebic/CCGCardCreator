@@ -97,7 +97,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\HSBlankCardFront.png">
+    <Content Include="Resources\HS_Weapon_Card_Blank.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\HS_Basic_Minion_Card_Blank.png">
