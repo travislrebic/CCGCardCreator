@@ -10,9 +10,9 @@ namespace CCGCardCreator
     {
         public string CardName { get; set; }
         public string CardText { get; set; }
-        public int ManaCost { get; set; }
-        public int Power { get; set; }
-        public int Toughness { get; set; }
-
+        public string ManaCost { get; set; }
+        public string Power { get; set; }
+        public string Toughness { get; set; }
+        public string CardType { get; set; }
     }
 }
